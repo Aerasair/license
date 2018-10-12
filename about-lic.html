@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="Identify_type.js"></script>
+   
+<title>Главная страница</title>
+    
+         <style>
+	#page2, #page3 {
+	    display: none;        
+	}            
+       #page0{                 
+             }
+           
+             #page1, #page2, #page3{
+                 border: 2px solid #359BDE;
+                 width: 750px;
+                 height: 384px;
+                 margin-left:350px;
+                 margin-top: 15px;
+                 font-size: 15pt;
+             }
+             
+	</style>
+
+</head>
+<body id="">
+ 
+ 
+ <div id="leftblockmenu">    
+       <a href="index.html"> <div id="menu">
+             <img src="pic/home.png">
+            <p>Домашняя страница</p>
+         </div> </a>  
+         <a href="content_creator.html">   <div id="menu">
+             <img src="pic/paint-brush.png">
+            <p>Авторам  контента</p>
+         </div></a>  
+        <a href="content_user.html">    <div id="menu">
+             <img src="pic/image.png">
+            <p> Пользователям контента</p>
+            </div></a>         
+       <a href="about.html">    <div id="menu">
+             <img src="pic/id-card.png">
+            <p>О нас</p>
+         </div></a>         
+    </div>
+ 
+    
+<div id="main-text" >
+       <h1 style="font-size: 30pt;">  Описание типов лицензий</h1>
+
+    <div id="main-content">
+    
+            
+    </div>
+    
+ 
+    
+    <div id=help-content style="margin-left: 0;">
+           
+        <script>
+	var current = 'page1';
+	function show(id) {
+	    document.getElementById(current).style.display = 'none';
+	    document.getElementById(id).style.display = 'block';
+	    current = id;
+	}
+	</script>
+        
+        
+        
+   
+
+        <div style="float:left; width:400px;"> 
+            
+            <a href="#"  onclick="show('page1'); return false;"><div id="spisok"><p>GPL</p></div></a>
+        <a href="#"  onclick="show('page2'); return false;"><div id="spisok"><p>BSD</p></div></a> 
+        <a href="#"  onclick="show('page3'); return false;"><div id="spisok"><p>MIT</p></div></a> 
+            
+            <a href="#"  onclick="show('page3'); return false;"><div id="spisok"><p>Mozila public license</p></div></a> 
+            
+                     <a href="#"  onclick="show('page3'); return false;"><div id="spisok"><p>Apache license</p></div></a> 
+            
+        </div>
+        
+        <div style="">
+            <br>
+	<div id="page1" ><h1>GPL</h1> расшифровывается как “General Public License” (“Стандартная общественная лицензия”). Наиболее широко из таких лицензий распространена Стандартная общественная лицензия GNU, коротко обозначаемая как “GNU GPL”. Это выражение можно дальше сократить до “GPL”, когда ясно, что имеется в виду именно GNU GPL.
+            <br>
+        Цель GNU GPL — предоставить пользователю права копировать, модифицировать и распространять (в том числе на коммерческой основе) программы, а также гарантировать, что и пользователи всех производных программ получат вышеперечисленные права
+            
+            </div>
+	<div id="page2">page2 page2 page2 page2 page2 page2 </div>
+	<div id="page3">page3 page3 page3 page3 page3 page3 </div>
+     </div>
+      
+       
+        
+        
+        
+        
+        
+    </div>   
+
+
+  
+
+</body>
+</html>

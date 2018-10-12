@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="Identify_type.js"></script>
+   
+    <script>
+           var color = '#253d97'; // Либо hex #fafafa и т.д.
+
+// Менять цвет при клике, либо сразу после загрузки dom
+function change() {
+ document.getElementById("leftblockmenu").style.background = color;
+}
+           </script>
+<title>Главная страница</title>
+</head>
+<body> 
+
+     
+     <div id="leftblockmenu">
+    
+       <a href="index.html"> <div id="menu">
+             <img src="pic/home.png">
+            <p>Домашняя страница</p>
+         </div> </a>  
+         <a href="content_creator.html">   <div id="menu">
+             <img src="pic/paint-brush.png">
+            <p>Авторам  контента</p>
+         </div></a>  
+        <a href="content_user.html">    <div id="menu">
+             <img src="pic/image.png">
+            <p> Пользователям контента</p>
+            </div></a>
+         
+       <a href="about.html">    <div id="menu">
+             <img src="pic/id-card.png">
+            <p>О нас</p>
+         </div></a>  
+    
+    
+    </div>
+ 
+
+    <div id="main-text" >
+        <div id="main-title">License expert</div>
+    <br>  <br>  <br>
+    <div id="main-content">
+            Уважаемый пользователь. Данный сервис создан с целью помочь разобраться 
+        в таком нелегком деле, как авторское право и лицензирование контента. Сайт разделён на две части. Первая часть ориентирована на авторов(создателей) контента с целью посоветовать наиболее подходящий тип лицензии по которой стоит распространять вашу работу. После прохождения маленького и простого опроса, вам будет предложены несколько типов лицензий и указано насколько в процентах, вам подходит каждый тип лицензии, далее вы можете почитать про каждый тип лицензии по отдельности. 
+        Для пользователей контента пригодится вторая часть сайта, на которой вы можете выбрать любой тип контента и почитать про особенности каждой лицензии.
+    </div>  
+            
+    </div>
+    
+   <div id="twochoices">
+       
+       <a href="content_creator.html">  <div id="choise"></div></a>
+       <div id="text_choise">АВТОРАМ<BR> КОНТЕНТА</div>  
+    
+      
+      <a href="content_user.html"><div id="choise" style="margin-left: 13%;"></div></a> 
+       <div id="text_choise">ПОЛЬЗОВАТЕЛЕЯМ<BR> КОНТЕНТА</div>  
+      
+    </div>
+    
+
+      
+<input style="margin-left: 25%;" onclick="change()" type="submit" value="Перевести" title="Перевести">
+        
+    
+
+  
+    
+ 
+ 
+    
+
+    
+    
+</body>
+</html>

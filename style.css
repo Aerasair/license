@@ -1,0 +1,187 @@
+/*Блок для объектов в одну строку*/
+.container{overflow:hidden;}
+/*.box{white-space:nowrap}*/
+.box div{display:inline-block;border:0px solid black}
+
+a:visited,a{
+    text-decoration: none;
+}
+
+/*Главная страница*/
+#main-text{
+    margin-left: 21%; /*потому что ширина блока слева 8%*/
+    border: 0px solid black;
+    margin-top: 6%;
+    width:58%;
+    height: 42%;
+    
+}
+#main-title{       
+	font-size:85px;
+}   
+#main-content{   
+    text-align: justify ;
+    font-size:25px;  
+}
+
+/*Страница help*/
+
+
+
+#help-content{
+    margin-left: 19%;
+    
+   
+    
+}
+
+#help-block-blue, #help-block-pole{
+    border:1px solid black;
+    text-align: center;
+    width: 260px;
+height: 65px;   
+margin-left: -4px;    
+vertical-align: middle; 
+
+}
+
+#help-block-blue{/*синие*/
+background: #06426A;   
+color:#fff;
+}
+
+#help-block-pole{  /*белое поле*/
+color:#000;
+}
+#help-block-pole:hover{
+background: #6ca2c9;
+color:#fff;
+}
+#help-block-pole:active{
+background: red;
+}
+
+/*Подключение шрифта*/
+@font-face {
+font-family: Corbel; /* Имя шрифта */
+src: url('corbel.ttf'); /* Путь к файлу со шрифтом */
+}
+/*Применение шрифта*/
+body {
+font-family: Corbel;
+
+background: url("pic/bg_house.png") right 100% no-repeat fixed ;
+margin-right:25%;
+background-size:25% 100%;
+
+}
+
+
+
+/* СТРАНИЦА О ЛИЦЕНЗИЯХ ИНФА*/
+
+#spisok{
+background: #0A3A9C;
+width: 328px;
+height: 72px;  
+color:#fff;
+text-align: center;
+margin-bottom: -30px;
+border-bottom:1px solid white;
+font-size: 35px;
+}
+
+#spisok:hover{
+background: #06426A;
+
+}
+
+
+
+#bodyindex{
+background-position: center center;
+background: url("bg2-2.png") no-repeat; 
+background-size: cover;
+}
+
+#bodylicandabout{
+background-position: center center;
+background: url(bg3-3.png) no-repeat; 
+background-size: cover;
+
+}
+
+
+/*НОВЫЙ ДЕЗИН*/
+#leftblockmenu{
+background: #0A3A9C;
+width: 8%;
+height: 100%;
+
+position: absolute;
+left:0;
+top:0;
+
+float:left;
+}
+
+#menu{
+
+}
+#menu > img {
+width: 90%;
+margin-left: 5%;
+}
+
+#menu > p {
+
+
+font-size: 15pt;
+color:#fff;
+margin-top: -8%;
+padding: 5px;
+text-align: center;
+}
+
+#menu:hover{
+background: rgb(234, 153, 0);
+
+}
+
+#twochoices{
+margin-left: 15.5%;
+width: 55%;
+height: 13%; 
+border:0px solid black;
+position: absolute;
+margin-top: 4%;
+}
+
+#choise{  
+width: 6%;
+height: 100%; 
+background: #0A3A9C;
+float:left;
+
+}
+#choise:hover{
+background: #EA9900;   
+}
+
+
+#text_choise{
+
+font-size: 25pt;
+float:left;
+margin-left: 10px;
+}
+
+#sovp{
+font-size: 20pt;
+}
+
+ul{
+   font-size: 20pt;  
+}
+
+
